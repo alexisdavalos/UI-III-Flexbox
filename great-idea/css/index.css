@@ -303,3 +303,27 @@ footer{
 li{
 	list-style-position: inside;
 }
+
+/* Mobile Design */
+@media (max-width: 1024px) {
+	section{
+		margin: 5% 0%;
+	}
+	.services-section{
+		flex-flow: column;
+	}
+	.service-box {
+		width:100%;
+	}
+
+	.fact-section{
+		flex-flow:column;
+	}
+	.fact-box{
+		width:100%;
+	}
+	.image-box{
+		width:100%;
+		padding-top:5%;
+	}
+  }
